@@ -4,6 +4,8 @@
 Hemos resuelto la tarea "Ejercicios de Ordenar", para la cual hemos creado una carpeta llamada "Clases" en la que se han introducido todas las clases para la correcta realizacion de la tarea. De la misma manera, hemos creado otra carpeta ("Introducir") con archivos para introducir datos (cadenas de texto, numeros y booleanos). Finalmente hemos intoducido los diagramas de flujo y UML correspondientes
 
 ## Main
+
+```
 if __name__ == "__main__":
 
     from Clases.Insercion_dicotonomica import Dicotonomia_1, Dicotonomia_2
@@ -39,3 +41,4 @@ if __name__ == "__main__":
     print("Tras aplicar la funcion explorar los segmentos quedan de la siguiente manera:")
     #Mostramos por pantalla los segmentos tras aplicar la funcion explorar
     print (resultado.explorar(resultado.segmentos()[0]), " - ", resultado.explorar(resultado.segmentos()[1]))
+    ```
