@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     print("Apartado 2")
     resultado_2 = Dicotonomia_2(tabla)
-    print ("Ordenando a partir de una lista vacia, la lista es: {}".format(resultado_2.ordenar_lista_vacia()))
+    print ("Ordenando a partir de una lista vacia, la lista es:{}".format(resultado_2.ordenar_lista_vacia()))
     print ("\n")
 
     from Clases.Ordenacion_topologica import Lista
@@ -41,4 +41,5 @@ if __name__ == "__main__":
     print("Tras aplicar la funcion explorar los segmentos quedan de la siguiente manera:")
     #Mostramos por pantalla los segmentos tras aplicar la funcion explorar
     print (resultado.explorar(resultado.segmentos()[0]), " - ", resultado.explorar(resultado.segmentos()[1]))
-    ```
+  
+```
