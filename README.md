@@ -5,7 +5,7 @@ Hemos resuelto la tarea "Ejercicios de Ordenar", para la cual hemos creado una c
 
 ## Main
 
-´´´
+```
 
 if __name__ == "__main__":
 
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     #Mostramos por pantalla los segmentos tras aplicar la funcion explorar
     print (resultado.explorar(resultado.segmentos()[0]), " - ", resultado.explorar(resultado.segmentos()[1]))
    
-   ´´´
+  ´´´
