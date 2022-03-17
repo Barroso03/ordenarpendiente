@@ -5,7 +5,7 @@ Hemos resuelto la tarea "Ejercicios de Ordenar", para la cual hemos creado una c
 
 ## Main
 
-```
+´´´
 if __name__ == "__main__":
 
     from Clases.Insercion_dicotonomica import Dicotonomia_1, Dicotonomia_2
@@ -41,3 +41,4 @@ if __name__ == "__main__":
     print("Tras aplicar la funcion explorar los segmentos quedan de la siguiente manera:")
     #Mostramos por pantalla los segmentos tras aplicar la funcion explorar
     print (resultado.explorar(resultado.segmentos()[0]), " - ", resultado.explorar(resultado.segmentos()[1]))
+    ´´´
